@@ -84,11 +84,11 @@
          {
            path: google.maps.SymbolPath.CIRCLE,
            scale: 5,
-           fillColor: color[getIconIndex(freq)],
+           fillColor: '#FF0000',
            fillOpacity: 1.0,
            strokeWeight: 1,
          },
-         getIconIndex(freq),
+         5,
          map,
          infowindow,
          infoString,
